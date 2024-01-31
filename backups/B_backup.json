@@ -1,0 +1,35 @@
+{
+  "A" : [ {
+    "content" : "Hello",
+    "sender" : "B",
+    "receiver" : "A",
+    "group" : "",
+    "type" : "CHAT",
+    "timestamp" : "1/31/24, 1:14 PM",
+    "groupChat" : false
+  }, {
+    "content" : "Hii",
+    "sender" : "A",
+    "receiver" : "B",
+    "group" : "",
+    "type" : "CHAT",
+    "timestamp" : "1/31/24, 1:14 PM",
+    "groupChat" : false
+  }, {
+    "content" : "1234",
+    "sender" : "A",
+    "receiver" : "B",
+    "group" : "",
+    "type" : "CHAT",
+    "timestamp" : "1/31/24, 1:14 PM",
+    "groupChat" : false
+  }, {
+    "content" : "4567",
+    "sender" : "B",
+    "receiver" : "A",
+    "group" : "",
+    "type" : "CHAT",
+    "timestamp" : "1/31/24, 1:15 PM",
+    "groupChat" : false
+  } ]
+}
