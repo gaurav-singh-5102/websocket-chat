@@ -41,7 +41,9 @@ public class MessageService {
     }
 
     public HashMap<String, List<ChatMessage>> getMessages(String username) {
-        loadMessagesFromFile(username);
+        if (!messages.containsKey(username)) {
+            loadMessagesFromFile(username);
+        }
         return messages.getOrDefault(username, new HashMap<>());
     }
 
